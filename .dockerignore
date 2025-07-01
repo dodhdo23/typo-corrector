@@ -1,0 +1,42 @@
+# 시스템 디렉터리 제외
+bin/
+boot/
+dev/
+etc/
+home/
+lib/
+lib64/
+media/
+mnt/
+opt/
+proc/
+root/
+run/
+sbin/
+srv/
+sys/
+tmp/
+usr/
+var/
+
+# Docker 환경 파일 제외
+.dockerenv
+
+# Git 관련 파일 (선택)
+.git/
+.gitignore
+.gitattributes
+
+# Python 캐시 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode 설정 (선택)
+.vscode/
+
+# 기타 빌드 산출물
+*.log
+*.tmp
+*.swp
